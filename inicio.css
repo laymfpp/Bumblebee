@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+* {
+    font-family: "Sora", sans-serif;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;   
+    position: absolute;
+    top: 0;
+}
+
+header img:nth-child(1){
+    max-width: 200px;
+}
+
+header img:nth-child(2) {
+    max-width: 30px;
+}
+
+.bee-section {
+    position: relative;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.bee-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bee-content div {
+    width: 100%;
+    margin-left: 10em;
+}
+
+.bee-content img {
+    width: 60%;
+}
+
+.bee-content a {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6em;
+    height: 1em;
+}
+
+ion-icon {
+    color: black;
+}
+
+.conheca ion-icon {
+    color: blue;
+}
+
+.bee-content a img {
+    width: 24px;
+}
+
+.bee-content a:first-of-type {
+    background: white;
+    font-weight: bold;
+}
+
+.bee-content a:last-of-type {
+    color: blue;
+    background-color: transparent;
+    font-size: 1.1rem;
+    margin-left: -16px;
+    gap: .2em;
+}
+
+.bee-image {
+    width: 55%; 
+}
+
+.acessar-loja, .conheca{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.images-section{
+    background-image: url("imgs/Group 1000005941.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; 
+    width: 100%;
+    height: 135vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.images-section .white-box-left{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+     position: absolute;
+    right: 20px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    padding: 20px;
+
+
+}
+
+.images-section .white-box-left h1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600; 
+    text-align: center;
+    margin: 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.2em;
+}
+
+.images-section .white-box-left p{
+    font-family: 'Sora', sans-serif;
+    font-weight: 300; 
+    font-size: smaller;
+    text-align: center;
+    margin: 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.5em;
+}
+
+.images-section .white-box-left img{
+    justify-content: center;
+    display: block; 
+    position: relative;
+    top: -20px;
+    padding-top: 0;
+    max-width: 100%; 
+}
+
+.image-section2{
+    background-image: url("imgs/Group 1000005942.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.image-section2 .black-box-right{
+    width: 450px;
+    height: 350px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+     position: absolute;
+    left: 20px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    padding: 20px;
+}
+
+.image-section2 .black-box-right h1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600; 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.2em;
+}
+
+.image-section2 .black-box-right p{
+    font-family: 'Sora', sans-serif;
+    font-weight: 300; 
+    font-size: smaller;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.726);
+    margin: 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.5em;
+}
+
+.image-section2 .black-box-right #White-p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.image-section2 .white-box-right img{
+    justify-content: center;
+    display: block; 
+    position: relative;
+    top: -20px;
+    padding-top: 0;
+    max-width: 100%; 
+}
+
+.moda {
+    background-color: #111;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.moda h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.moda .acessar-loja {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    transition: .5s;
+}
+
+.moda .acessar-loja:hover {
+    transform: translateY(-4px);
+}
